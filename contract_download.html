@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>电子合同下载</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .contract-info {
+            margin: 20px 0;
+            padding: 15px;
+            background: #f9f9f9;
+            border-left: 4px solid #4CAF50;
+        }
+        .download-btn {
+            display: inline-block;
+            background: #4CAF50;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .download-btn:hover {
+            background: #45a049;
+        }
+        .instructions {
+            margin-top: 30px;
+            padding: 15px;
+            background: #e3f2fd;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>电子合同下载</h1>
+        
+        <div class="contract-info">
+            <h2>合同信息</h2>
+            <p><strong>合同名称：</strong>工商银行房产抵押贷款委托协议</p>
+            <p><strong>编号：</strong>0750137</p>
+            <p><strong>生效日期：</strong>2025年12月27日</p>
+        </div>
+        
+        <div style="text-align: center; margin: 30px 0;">
+            <a href="工商银行房产抵押贷款委托协议0750137.pdf" class="download-btn" download="工商银行房产抵押贷款委托协议0750137.pdf">下载合同</a>
+            <button class="download-btn" style="margin-left: 10px; background: #6c757d;" onclick="event.preventDefault();">已签署</button>
+        </div>
+        
+        <div class="instructions">
+            <h3>使用说明</h3>
+            <ol>
+                <li>请仔细阅读合同内容后签署</li>
+                <li>合同将以PDF格式下载到您的设备</li>
+                <li>点击上方"下载合同"按钮</li>
+                <li>如有任何疑问，请联系客服95588</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
